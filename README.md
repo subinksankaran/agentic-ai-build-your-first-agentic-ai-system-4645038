@@ -17,10 +17,10 @@ This repository has branches for each of the videos in the course. You can use t
 This course uses two main Jupyter notebooks that you'll run on Google Colab:
 
 ### Chapter 3: V1 Action Autonomy (Router Agent)
-**[action_autonomy.ipynb](action_autonomy.ipynb)** - Use this notebook throughout Chapter 3. The notebook includes clear chapter break markers (🎬 End of Chapter) that show you where to stop for each video.
+**[Open action_autonomy.ipynb in Colab](https://colab.research.google.com/github/LinkedInLearning/agentic-ai-build-your-first-agentic-ai-system-4645038/blob/main/action_autonomy.ipynb)** - Use this notebook throughout Chapter 3. The notebook includes clear chapter break markers (🎬 End of Chapter) that show you where to stop for each video.
 
 ### Chapter 4: V2 Planning Autonomy (Planning Agent)
-**[planning_autonomy.ipynb](planning_autonomy.ipynb)** - Use this notebook throughout Chapter 4. The notebook includes clear chapter break markers (🎬 End of Chapter) that show you where to stop for each video.
+**[Open planning_autonomy.ipynb in Colab](https://colab.research.google.com/github/LinkedInLearning/agentic-ai-build-your-first-agentic-ai-system-4645038/blob/main/planning_autonomy.ipynb)** - Use this notebook throughout Chapter 4. The notebook includes clear chapter break markers (🎬 End of Chapter) that show you where to stop for each video.
 
 ## Running the Notebooks
 
@@ -28,7 +28,7 @@ All notebooks in this course are designed to run on **Google Colab** with no loc
 
 ### Quick Start with Google Colab
 
-1. **Open the notebook in Colab**: Click on the notebook link above (e.g., `action_autonomy.ipynb`), then click the "Open in Colab" button at the top of the GitHub page
+1. **Open the notebook in Colab**: Click on the notebook link above (e.g., "Open action_autonomy.ipynb in Colab") to launch it directly in Google Colab
 
 2. **Set up your OpenAI API key**:
    - In Colab, click the key icon (🔑) in the left sidebar
