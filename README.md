@@ -153,7 +153,7 @@ This CC/CD pattern works for production systems and teaches you how to systemati
 
 ## Instructor
 
-**Sai Kiriti Badam**
+**Aishwarya Naresh Reganti**
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
