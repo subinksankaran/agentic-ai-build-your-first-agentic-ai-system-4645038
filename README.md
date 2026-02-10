@@ -48,9 +48,10 @@ All notebooks in this course are designed to run on **Google Colab** with no loc
 
 ### V1: Action Autonomy (Router Agent)
 A customer support routing agent that:
-- Classifies messages into 7 departments
-- Improves from 76.7% → 93.3% accuracy
-- Uses Arize Phoenix for observability and error analysis
+- Classifies customer messages into appropriate departments
+- Uses systematic evaluation to measure baseline performance
+- Applies error analysis to discover improvement opportunities
+- Implements targeted improvements and validates results
 
 **Key Concepts:**
 - Simple prompt engineering
@@ -61,9 +62,9 @@ A customer support routing agent that:
 ### V2: Planning Autonomy (Planning Agent)
 A multi-step planning agent that:
 - Routes messages using V1's proven routing (builds on V1!)
-- Retrieves relevant procedures using BM25
-- Generates detailed action plans with GPT
-- Improves SOP Recall from 54% → 76% and Plan Quality from 72% → 100%
+- Retrieves relevant procedures from a knowledge base using BM25
+- Generates detailed, multi-step action plans
+- Uses custom metrics to measure and improve retrieval and plan quality
 
 **Key Concepts:**
 - RAG (Retrieval Augmented Generation) with BM25
