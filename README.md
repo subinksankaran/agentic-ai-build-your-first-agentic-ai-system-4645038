@@ -12,27 +12,15 @@ Learn to build production-ready agentic AI systems using the Autonomy Ladder fra
 
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in GitHub to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
 
-## Branches
+## Course Notebooks
 
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `03_01` corresponds to the third chapter and the first video in that chapter.
+This course uses two main Jupyter notebooks that you'll run on Google Colab:
 
 ### Chapter 3: V1 Action Autonomy (Router Agent)
-- **03_01**: Adding Simple Reasoning for Action Autonomy
-- **03_02**: Baseline System Testing
-- **03_03**: Baseline System Calibration (CC)
-- **03_04**: Baseline System Update (CD)
+Use the `action_autonomy.ipynb` notebook throughout Chapter 3. The notebook includes clear chapter break markers (🎬 End of Chapter) that show you where to stop for each video.
 
 ### Chapter 4: V2 Planning Autonomy (Planning Agent)
-- **04_01**: Implementing Retrieval & Planning
-- **04_02**: Error Analysis & Metric Design (CC)
-- **04_03**: System Improvement & Comparison (CD)
-
-### How to Use the Branches
-
-Each branch contains the **complete notebook** for that chapter. The notebooks include clear chapter break markers (🎬 End of Chapter X) that show you where to stop for each video. This allows you to:
-- Follow along with the course by running code up to each chapter break
-- Jump to any video and continue from that point
-- Review the complete implementation at any stage
+Use the `planning_autonomy.ipynb` notebook throughout Chapter 4. The notebook includes clear chapter break markers (🎬 End of Chapter) that show you where to stop for each video.
 
 ## Running the Notebooks
 
@@ -52,16 +40,8 @@ All notebooks in this course are designed to run on **Google Colab** with no loc
 
 ### Alternative: Direct Colab Links
 
-**Chapter 3: V1 Action Autonomy**
-- [03_01 - Adding Simple Reasoning](https://colab.research.google.com/github/LinkedInLearning/agentic-ai-build-your-first-agentic-ai-system-4645038/blob/03_01/action_autonomy.ipynb)
-- [03_02 - Baseline Testing](https://colab.research.google.com/github/LinkedInLearning/agentic-ai-build-your-first-agentic-ai-system-4645038/blob/03_02/action_autonomy.ipynb)
-- [03_03 - Calibration (CC)](https://colab.research.google.com/github/LinkedInLearning/agentic-ai-build-your-first-agentic-ai-system-4645038/blob/03_03/action_autonomy.ipynb)
-- [03_04 - Update (CD)](https://colab.research.google.com/github/LinkedInLearning/agentic-ai-build-your-first-agentic-ai-system-4645038/blob/03_04/action_autonomy.ipynb)
-
-**Chapter 4: V2 Planning Autonomy**
-- [04_01 - Implementing Retrieval & Planning](https://colab.research.google.com/github/LinkedInLearning/agentic-ai-build-your-first-agentic-ai-system-4645038/blob/04_01/planning_autonomy.ipynb)
-- [04_02 - Error Analysis & Metrics (CC)](https://colab.research.google.com/github/LinkedInLearning/agentic-ai-build-your-first-agentic-ai-system-4645038/blob/04_02/planning_autonomy.ipynb)
-- [04_03 - System Improvement (CD)](https://colab.research.google.com/github/LinkedInLearning/agentic-ai-build-your-first-agentic-ai-system-4645038/blob/04_03/planning_autonomy.ipynb)
+- **[Chapter 3: Action Autonomy Notebook](https://colab.research.google.com/github/LinkedInLearning/agentic-ai-build-your-first-agentic-ai-system-4645038/blob/main/action_autonomy.ipynb)** - Use this for all Chapter 3 videos
+- **[Chapter 4: Planning Autonomy Notebook](https://colab.research.google.com/github/LinkedInLearning/agentic-ai-build-your-first-agentic-ai-system-4645038/blob/main/planning_autonomy.ipynb)** - Use this for all Chapter 4 videos
 
 ## Prerequisites
 
@@ -110,13 +90,12 @@ This CC/CD pattern works for production systems and teaches you how to systemati
 ## Repository Structure
 
 ```
-├── action_autonomy.ipynb          # V1 notebook (Chapter 3 branches)
-├── planning_autonomy.ipynb        # V2 notebook (Chapter 4 branches)
-├── v1_action_autonomy.ipynb       # V1 final (main branch only)
-├── v2_planning_autonomy.ipynb     # V2 final (main branch only)
+├── action_autonomy.ipynb          # Chapter 3: V1 Action Autonomy
+├── planning_autonomy.ipynb        # Chapter 4: V2 Planning Autonomy
 ├── data/
-│   ├── test_cases.csv             # Test cases for evaluation
-│   └── sops/                      # Standard Operating Procedures (V2 only)
+│   ├── v1_test_cases.csv          # Test cases for V1 evaluation
+│   ├── v2_test_cases.csv          # Test cases for V2 evaluation
+│   └── sops/                      # Standard Operating Procedures (V2)
 │       ├── sop_001.txt
 │       ├── sop_002.txt
 │       └── ...
@@ -124,7 +103,8 @@ This CC/CD pattern works for production systems and teaches you how to systemati
     └── diagrams/                  # Architecture diagrams
         ├── autonomy_ladder.png
         ├── v1_architecture.png
-        └── v2_architecture.png
+        ├── v2_architecture.png
+        └── ...
 ```
 
 ## Troubleshooting
